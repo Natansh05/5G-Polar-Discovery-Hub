@@ -404,8 +404,8 @@ for Eb in Eb_N0: #for each Eb/N0 we are calculating success out of nsim
         success4,val4 = SC_list(N1[3],K2[3],Eb) 
         error_list1+=val1 # adding 1 if decoding is not successful or 0 id it is successful
         error_list2+=val2 
-        error_list3+=val2 
-        error_list4+=val2 
+        error_list3+=val3 
+        error_list4+=val4 
         success_list1+=success1
         success_list2+=success2
         success_list3+=success3
